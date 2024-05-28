@@ -8,7 +8,7 @@ import spacy
 app = Flask(__name__)
 
 # Load dataset
-df = pd.read_csv("DataNeuron_Text_Similarity.csv")
+df = pd.read_csv("dataset.csv")
 
 # Initialize SpaCy
 nlp = spacy.load("en_core_web_lg")
